@@ -113,6 +113,7 @@
 nav .sidebar-button i{
   font-size: 35px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .home-section nav .profile-details{
   display: flex;

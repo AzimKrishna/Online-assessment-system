@@ -100,24 +100,15 @@ if (!isset($_SESSION["user_id"])){
           <p>Ans: Navigate to the exams tab by clicking on the exams button from the left navigation bar. New tests can be added and old ones can also be deleted from here according to your preference. After adding a test, click on the edit icon to add questions.</p><br>
           <p><b>Important notice:</b> Once the test questions has been added once, do not try to update the questions. It can cause error in the functioning of the website. Updating the existing questions feature will be introduced in the future updates.</p>
            <div class="credits">
-            <span class="text" style="text-align: center;">Made <❤️> by Azim Krishna, Yashraj Sinha, Ayush Singh and Aryan Rajeev<br>Contact us on: bazim20comp@student.mes.ac.in </span>
+            <span class="text" style="text-align: center;">Made <❤️> by Azim Krishna<br>Contact me on: azimbaji19@gmail.com </span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <script>
-   let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".sidebarBtn");
-sidebarBtn.onclick = function() {
-  sidebar.classList.toggle("active");
-  if(sidebar.classList.contains("active")){
-  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
-}else
-  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-}
- </script>
+<script src="../js/script.js"></script>
+
 
 </body>
 </html>

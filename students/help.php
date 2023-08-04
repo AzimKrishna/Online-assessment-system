@@ -94,24 +94,15 @@ if (!isset($_SESSION["fname"])){
           <p>Ans: Click on the messages option from the left navigation bar.</p><br>
          
           <div class="credits">
-            <span class="text" style="text-align: center;">Made <❤️> by Azim Krishna, Yashraj Sinha, Ayush Singh and Aryan Rajeev<br>Contact us on: bazim20comp@student.mes.ac.in </span>
+            <span class="text" style="text-align: center;">Made <❤️> by Azim Krishna<br>Contact me on: azimbaji19@gmail.com </span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <script>
-   let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".sidebarBtn");
-sidebarBtn.onclick = function() {
-  sidebar.classList.toggle("active");
-  if(sidebar.classList.contains("active")){
-  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
-}else
-  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-}
- </script>
+<script src="../js/script.js"></script>
+
 
 </body>
 </html>
