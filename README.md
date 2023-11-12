@@ -88,11 +88,13 @@ The Online Assessment System is a feature-rich web application designed for cond
 ## Installation 🔧
 
 1. Host the application on a localhost or server.
-2. Make sure to import the provided `db_eval.sql` file into the server's database. The tables used are `atmpt_list`, `exm_list`, `message`, `qstn_list`, `student`, and `teacher`.
+2. Make sure to create a database named db_eval and then import the provided `db_eval.sql` file from the db foldedr into the server's database which you just created. The tables used are `atmpt_list`, `exm_list`, `message`, `qstn_list`, `student`, and `teacher`.
 
 ## Notes ⚠️
 
 - The application implements basic security by storing MD5 hashes of passwords instead of plain text.
+- Currently teachers can add student accounts but teacher accounts must be added manually and password must be entered in MD5 value.
+- The credentials for the teacher login is username : `teacher`, password : `azimkrishna`.
 - Correct options are stored in the database and not inside js scripts to prevent malpractice.
 - The system is optimized for laptop and desktop screens with resolutions from 1920x1080 to 1440x900.
 - The greeting text and background of the login page change according to IST time, adding a personalized touch to the user experience.
